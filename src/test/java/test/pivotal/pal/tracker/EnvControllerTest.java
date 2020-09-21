@@ -1,9 +1,9 @@
 package test.pivotal.pal.tracker;
 
+import io.pivotal.pal.tracker.EnvController;
 import org.junit.jupiter.api.Test;
 
 import java.util.Map;
-import io.pivotal.pal.tracker.EnvController;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -24,5 +24,4 @@ public class EnvControllerTest {
         assertThat(env.get("CF_INSTANCE_INDEX")).isEqualTo("34");
         assertThat(env.get("CF_INSTANCE_ADDR")).isEqualTo("123.sesame.street");
     }
-
 }
