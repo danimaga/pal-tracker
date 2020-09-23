@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: dmart234-pal-tracker
+  - name: pal-tracker
     path: build/libs/pal-tracker.jar
     routes:
       - route: pal-tracker-dmart234.apps.evans.pal.pivotal.io
